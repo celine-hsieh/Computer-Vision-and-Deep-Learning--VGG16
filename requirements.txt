@@ -1,0 +1,6 @@
+opencv-python
+opencv-contrib-python
+pytorch
+torchvision
+torch-summary
+PyQt5
