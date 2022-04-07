@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+D:/研究所課程/碩一上/電腦視覺與深度學習/HW/ filter=lfs diff=lfs merge=lfs -text
+Computer[[:space:]]Vision[[:space:]]and[[:space:]]Deep[[:space:]]Learning filter=lfs diff=lfs merge=lfs -text
