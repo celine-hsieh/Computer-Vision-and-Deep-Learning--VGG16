@@ -40,7 +40,6 @@ def calibration(images:list, width_board = 11, height_board = 8):
             imgpoints.append(corner)
     return objpoints, imgpoints
 
-
 def init_feature(name):
     """
     The features include orb, akaza, brisk
@@ -157,3 +156,44 @@ def draw_char(img, char_list:list):
         line = line.reshape(2,2)
         draw_image = cv.line(draw_image, tuple(line[0]), tuple(line[1]), (0,255,0), 10, cv.LINE_AA)
     return draw_image    
+
+def disparity(imgL, imgR):
+    matcher = cv.StereoBM_create(256,25)
+    disparity_f = matcher.compute(imgL, imgR)
+    return disparity_f
+
+def process_ouput(disparity):
+    cv8uc = cv.normalize(disparity, None, alpha=0,
+    beta=255, norm_type=cv.NORM_MINMAX,
+    dtype=cv.CV_8UC1)
+    return cv8uc
+
+def map_disparity(imgL, imgR, disparity, win):
+    hL, wL = imgL.shape[:2]
+    # hR, wR = imgR.shape[:2]
+    print("Shape image: {}, {}".format(wL, hL))
+    merge_image = concat_image(imgL, imgR)
+    # imag0 = merge_image.copy()
+    cur_img = merge_image.copy()
+    def onmouse(event, x, y, flags, param):
+        # print("initial")
+        nonlocal cur_img
+        if flags & cv.EVENT_FLAG_LBUTTON:
+            cur_img = merge_image.copy()
+            cur_x, cur_y = x, y
+            if cur_x < 0:
+                cur_x = 0
+            elif cur_x >= wL:
+                cur_x = wL-1
+            if cur_y < 0:
+                cur_y = 0
+            elif cur_y >= hL:
+                cur_y = hL-1
+            delta_pos = disparity[cur_y,cur_x]
+            print("disparity value at ({},{}): {}".format(cur_x, cur_y, delta_pos))
+            if delta_pos > 0:
+                x_right = cur_x -delta_pos + wL
+                cur_img = cv.circle(cur_img, (x_right,cur_y), radius=20, color=(0, 255, 0), thickness=-1)
+            
+        cv.imshow(win, cur_img)
+    cv.setMouseCallback(win, onmouse) 
