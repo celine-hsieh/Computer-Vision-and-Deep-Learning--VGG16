@@ -31,7 +31,9 @@
 </h1>
 
 ## Training Cifar-10 Classifier Using VGG16
+
 [VGG16, Paper and Source Code](https://paperswithcode.com/method/vgg)
+
 [Cifar10 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
 
 
