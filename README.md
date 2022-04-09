@@ -6,14 +6,14 @@
 
 ## Camera Calibration
 <h1>
-  <img src="https://media.githubusercontent.com/media/celinehsieh68/Computer-Vision-and-Deep-Learning--VGG16/main/Result/Q1/find%20corners.gif" width="380" height="300"/>
+  <img src="https://media.githubusercontent.com/media/celinehsieh68/Computer-Vision-and-Deep-Learning--VGG16/main/Result/Q1/find%20corners.gif" width="350" height="300"/>
   <img src="https://media.githubusercontent.com/media/celinehsieh68/Computer-Vision-and-Deep-Learning--VGG16/main/Result/Q1/result.gif" width="450" height="300"/>
 </h1>
 
 ## Augmented Reality
 <h1>
-  <img src="https://media.githubusercontent.com/media/celinehsieh68/Computer-Vision-and-Deep-Learning--VGG16/main/Result/Q2/word%20on%20board.gif" width="415" height="300"/>
-  <img src="https://media.githubusercontent.com/media/celinehsieh68/Computer-Vision-and-Deep-Learning--VGG16/main/Result/Q2/word%20vertical.gif" width="415" height="300"/>
+  <img src="https://media.githubusercontent.com/media/celinehsieh68/Computer-Vision-and-Deep-Learning--VGG16/main/Result/Q2/word%20on%20board.gif" width="400" height="300"/>
+  <img src="https://media.githubusercontent.com/media/celinehsieh68/Computer-Vision-and-Deep-Learning--VGG16/main/Result/Q2/word%20vertical.gif" width="400" height="300"/>
 </h1>
 
 ## Stereo Disparity Map
