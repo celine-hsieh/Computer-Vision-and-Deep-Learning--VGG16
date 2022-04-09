@@ -24,8 +24,8 @@
 
 ## SIFT
 <h1>
-  <img src="https://media.githubusercontent.com/media/celinehsieh68/Computer-Vision-and-Deep-Learning--VGG16/main/Result/Q4/key%20point.PNG" width="380" height="300"/>
-  <img src="https://media.githubusercontent.com/media/celinehsieh68/Computer-Vision-and-Deep-Learning--VGG16/main/Result/Q4/key%20point2.PNG" width="450" height="300"/>
+  <img src="https://media.githubusercontent.com/media/celinehsieh68/Computer-Vision-and-Deep-Learning--VGG16/main/Result/Q4/key%20point.PNG" width="400" height="300"/>
+  <img src="https://media.githubusercontent.com/media/celinehsieh68/Computer-Vision-and-Deep-Learning--VGG16/main/Result/Q4/key%20point2.PNG" width="400" height="300"/>
   <img src="https://media.githubusercontent.com/media/celinehsieh68/Computer-Vision-and-Deep-Learning--VGG16/main/Result/Q4/match%20key%20point.PNG" width="600" height="300"/>
   <img src="https://media.githubusercontent.com/media/celinehsieh68/Computer-Vision-and-Deep-Learning--VGG16/main/Result/Q4/wrap%20image.PNG" width="380" height="300"/>
 </h1>
