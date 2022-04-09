@@ -31,3 +31,7 @@
 </h1>
 
 ## Training Cifar-10 Classifier Using VGG16
+
+
+## Reference
+https://github.com/tony71200/Hw1_NCKU_202110
