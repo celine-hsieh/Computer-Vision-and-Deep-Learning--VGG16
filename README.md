@@ -18,8 +18,8 @@
 
 ## Stereo Disparity Map
 <h1>
-  <img src="https://media.githubusercontent.com/media/celinehsieh68/Computer-Vision-and-Deep-Learning--VGG16/main/Result/Q3/Disparity.PNG" width="415" height="300"/>
-  <img src="https://media.githubusercontent.com/media/celinehsieh68/Computer-Vision-and-Deep-Learning--VGG16/main/Result/Q3/check%20disparity.gif" width="415" height="300"/>
+  <img src="https://media.githubusercontent.com/media/celinehsieh68/Computer-Vision-and-Deep-Learning--VGG16/main/Result/Q3/Disparity.PNG" width="380" height="300"/>
+  <img src="https://media.githubusercontent.com/media/celinehsieh68/Computer-Vision-and-Deep-Learning--VGG16/main/Result/Q3/check%20disparity.gif" width="450" height="300"/>
 </h1>
 
 ## SIFT
