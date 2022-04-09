@@ -6,8 +6,8 @@
 
 ## Camera Calibration
 <h1>
-  <img src="https://media.githubusercontent.com/media/celinehsieh68/Computer-Vision-and-Deep-Learning--VGG16/main/Result/Q1/find%20corners.gif" width="380" height="300"/>
-  <img src="https://media.githubusercontent.com/media/celinehsieh68/Computer-Vision-and-Deep-Learning--VGG16/main/Result/Q1/result.gif" width="450" height="300"/>
+  <img src="https://media.githubusercontent.com/media/celinehsieh68/Computer-Vision-and-Deep-Learning--VGG16/main/Result/Q1/find%20corners.gif" width="415" height="300"/>
+  <img src="https://media.githubusercontent.com/media/celinehsieh68/Computer-Vision-and-Deep-Learning--VGG16/main/Result/Q1/result.gif" width="415" height="300"/>
 </h1>
 
 ## Augmented Reality
