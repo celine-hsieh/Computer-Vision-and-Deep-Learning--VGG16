@@ -156,9 +156,6 @@ class MainWindow(QMainWindow, windowUI):
         self.Q5_model.train()
         pass
 
-
-
-
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = MainWindow()
